@@ -1,0 +1,4 @@
+mvn dependency:tree
+mvn dependency:go-offline // resolve all all, prepare to go offline
+mvn dependency:pure-local-repository // Clear artifacts from local rep
+dependency:sources // get sources for all dependencies
