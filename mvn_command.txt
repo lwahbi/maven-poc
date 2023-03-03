@@ -1,4 +1,5 @@
 mvn dependency:tree
+mvn dependency:build-classpath // chemin des jar du projet dans le rep local, se positionner au niveau du pom.xml
 mvn dependency:go-offline // resolve all all, prepare to go offline
 mvn dependency:pure-local-repository // Clear artifacts from local rep
-dependency:sources // get sources for all dependencies
+mvn dependency:sources // get sources for all dependencies
